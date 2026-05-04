@@ -97,4 +97,7 @@ private:
 
 };
 
+#define SECURE_ELEMENT_GI
+extern SecureElementClass SecureElement;
+
 #endif /* SECURE_ELEMENT_H_ */

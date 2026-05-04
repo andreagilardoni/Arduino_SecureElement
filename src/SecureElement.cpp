@@ -77,3 +77,4 @@ int SecureElementClass::serialNumber(byte sn[], size_t length)
 #endif
 }
 
+SecureElementClass SecureElement;
