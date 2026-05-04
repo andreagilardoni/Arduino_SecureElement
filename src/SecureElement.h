@@ -64,6 +64,7 @@ public:
 
   inline long random(long min, long max) { return this->_secureElement.random(min, max); };
   inline long random(long max) { return this->_secureElement.random(max); };
+  inline long random(uint8_t *arr, size_t len) { return this->_secureElement.random(arr, len); };
 
   inline int generatePrivateKey(int slot, byte publicKey[]) { return _secureElement.generatePrivateKey(slot, publicKey); };
   inline int generatePublicKey(int slot, byte publicKey[]) { return _secureElement.generatePublicKey(slot, publicKey); };
