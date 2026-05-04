@@ -49,11 +49,11 @@
  * CLASS DECLARATION
  ******************************************************************************/
 
-class SecureElement
+class SecureElementClass
 {
 public:
 
-  SecureElement();
+  SecureElementClass();
 
   inline int begin() { return _secureElement.begin(); }
   inline void end() { return _secureElement.end(); }
