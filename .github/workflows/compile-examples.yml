@@ -83,6 +83,12 @@ jobs:
           - fqbn: "arduino:zephyr_main:opta"
             platform-name: arduino:zephyr_main
             artifact-name-suffix: arduino-zephyr_main-opta
+          - fqbn: "arduino:zephyr_main:portentac33"
+            platform-name: arduino:zephyr_main
+            artifact-name-suffix: arduino-zephyr_main-portentac33
+          - fqbn: "arduino:zephyr_main:nicla_vision"
+            platform-name: arduino:zephyr_main
+            artifact-name-suffix: arduino-zephyr_main-nicla_vision
 
 
         include:
@@ -143,6 +149,7 @@ jobs:
               - name: arduino:zephyr_main
             libraries: |
               - name: ArduinoECCX08
+              - name: Arduino_SE05X
 
     steps:
       - name: Checkout
