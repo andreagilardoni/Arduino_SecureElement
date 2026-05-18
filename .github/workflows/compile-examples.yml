@@ -106,6 +106,7 @@ jobs:
               - name: arduino:mbed_portenta
             libraries: |
               - name: ArduinoECCX08
+              - name: Arduino_SE05X
           - board:
               platform-name: arduino:mbed_nano
             platforms: |
@@ -118,6 +119,8 @@ jobs:
             platforms: |
               # Install Arduino mbed_nano Boards via Boards Manager
               - name: arduino:mbed_nicla
+            libraries: |
+              - name: Arduino_SE05X
           - board:
               platform-name: arduino:mbed_opta
             platforms: |
@@ -137,6 +140,8 @@ jobs:
             platforms: |
               # Install Arduino renesas_portenta Boards via Boards Manager
               - name: arduino:renesas_portenta
+            libraries: |
+              - name: Arduino_SE05X
           - board:
               platform-name: arduino:renesas_uno
             platforms: |
